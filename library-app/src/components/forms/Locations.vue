@@ -2,7 +2,7 @@
   <div>
     <h2>Add New Location</h2>
     <form @submit.prevent="saveLocation">
-      <Input v-model="location.room" label="Cuarto" />
+      <Input v-model="location.room" label="Sala" />
       <Input v-model="location.shelf" label="Estante" />
       <Input v-model="location.bookcase" label="Librero" />
       <Input v-model="location.position" label="Posición" />

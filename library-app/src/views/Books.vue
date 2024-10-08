@@ -44,8 +44,9 @@ const selectedBook = ref<BookType | undefined>(undefined);
 
 const headers = ref([
   { title: "ID", rowKey: "volume_id" },
+  { title: "Codigo", rowKey: "volume_number" },
   { title: "Title", rowKey: "title" },
-  { title: "Cuarto", rowKey: "room" },
+  { title: "Sala", rowKey: "room" },
   { title: "Estante", rowKey: "shelf" },
   { title: "Librero", rowKey: "bookcase" },
   { title: "Posición", rowKey: "position" },
